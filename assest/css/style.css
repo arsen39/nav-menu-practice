@@ -1,0 +1,40 @@
+body{
+  padding: 10px;
+}
+
+ul{
+  list-style: none;
+  font-size: 0;
+  margin: 10px;
+}
+
+li{
+  display: inline-block;
+}
+
+.link{
+  text-decoration: none;
+  border: 1px solid #3c805b;
+  background-color: #47986d;
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+.sub-list{
+  position: absolute;
+  display: none;
+}
+
+.sub-list-item{
+  position: relative;
+  display: block;
+}
+
+.list-item:hover > .sub-list {
+  display: block;
+}
+
+.subest-list-item{
+  display: none;
+}
